@@ -1,0 +1,8 @@
+set style line 1 lc rgb '#0060ad' lt 1 lw 2 pt 5 ps 1.0
+set style line 2 lc rgb '#dd181f' lt 1 lw 2 pt 5 ps 1.0
+set style line 3 lc rgb '#29c524' lt 1 lw 2 pt 5 ps 1.0
+set style line 4 lc rgb '#7D72F9' lt 1 lw 2 pt 5 ps 1.0
+set style line 5 lc rgb '#000000' lt 2 lw 0.5 pt 5 ps 1.0
+plot '/Users/qrafzv/Documents/workspace/jMetaltest/FUN_NSGAII_initial.rf' with linespoints ls 0%5 +1 title 'FUN-NSGAII-initial',\
+'/Users/qrafzv/Documents/workspace/jMetaltest/30-10.pf' with linespoints ls 5 title '30-10.pf-instance01-cplex',\
+'30-10.rf' with linespoints ls 1%5 +1 title 'FogPlanningProblem3010.rf',\
