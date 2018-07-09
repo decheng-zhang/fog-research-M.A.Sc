@@ -1,5 +1,5 @@
 ## Fog Planning Algorithm Research and Design Carleton-SYSC
-This repository comprises the first part of my fog facility planning research: the task allocation and facility planning policy design.
+This repository is the first part of my fog facility planning research: the task allocation and facility planning policy design.
 This project is developed in java, and implement two categories of algorithms (Conbinatorial Optimization algorithm and Heuristic algorithm).<br>
 <br><b>Optimization algorithm:</b> FLP, K-MEANS, Weighted Sum, Lagrangian Dual and Meanshift.
 <br><b>Heuristic algorithm:</b> PSO, NSGA, SPEA, MOCELL.
